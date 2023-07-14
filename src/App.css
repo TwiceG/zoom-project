@@ -1,3 +1,48 @@
-.image-container {
+/* .app-container {
   display: flex;
-  }
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative;
+}
+
+.zoom-slider {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translateX(100%);
+} */
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-wrapper {
+  filter: saturate(var(--saturate-value, 100%));
+}
+
+.zoom-slider {
+  position: absolute;
+  top: 100pt;
+  left: calc(100% + 20px);
+  transform: translateY(-50%);
+}
+
+.saturation-slider {
+  position: absolute;
+  top: calc(100% + 20px);
+  left: 20px;
+  transform: translateY(-50%);
+}
