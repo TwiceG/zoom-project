@@ -21,22 +21,15 @@ Before getting started, make sure you have the following prerequisites installed
 ## Stack
 
 - ![React-Vite Logo](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
-- ![MUI Logo] (https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)components for sliders
-- React Magnifier component for zoom functionality -![JavaScript Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) for all the code
+- ![MUI Logo](https://img.shields.io/badge/Material%20UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)components for sliders
+- React Magnifier component for zoom functionality
+- ![JavaScript Logo](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) for all the code
 
 ## Setup
 
 To set up the project, follow these steps:
 
 1. Run the `install.js` script by executing the following command in your terminal:
-
-```
-node install.js
-```
-
-## Setup
-
-You only need to run: the `install.js`
 
 ```
 node install.js
